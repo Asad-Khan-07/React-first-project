@@ -19,7 +19,7 @@ const Header = () => {
     initial={{opacity:0, translateX:"20px"}}
     animate={{opacity:1,translateX:0}}
     transition={{duration:2}}
-    className=' flex flex-wrap flex-col justify-center  items-center absolute sm:top-40  sm:mx-130 py-5 mb:top-50  z-[10]'>
+    className=' flex flex-wrap flex-col justify-center  items-center absolute sm:top-40  sm:mx-130 py-5 mb:top-30  z-[10]'>
         <h1 className={`font-bold text-[50px] ${mode? "text-amber-100": "text-gray-900"}  leading-tight text-center transition delay-150 duration-500 ease`}>Free and Open-Source Next.js Template for Startup & SaaS</h1>
         <h1 className={`mt-5  sm:text-[25px] leading-tight ${mode ? "text-amber-100" : "text-gray-600"} mb:text-2xl text-center transition delay-150 duration-500 ease`}>Startup is free Next.js template for startups and SaaS business websites comes with all the essential pages, components, and sections you need to launch a complete business website, built-with Next 13.x and Tailwind CSS.</h1>
     <button className={`outline-2 p-3 mt-5  ${mode ? "bg-amber-100" : "bg-gray-600"}  ${mode ? "text-gray-600" : "text-amber-100"}
