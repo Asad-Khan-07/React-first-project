@@ -42,7 +42,7 @@ const {mode, setMode} = useContext(themeContext);
 
 
   return (
-    <Disclosure as="nav" className={`fixed  z-20 sm:w-full`}>
+    <Disclosure as="nav" className={`fixed z-20 sm:w-full`}>
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -55,12 +55,12 @@ const {mode, setMode} = useContext(themeContext);
             </DisclosureButton>
           </div>
 
-          <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+          <div className="flex items-center mb:border-2 border-amber-50 sm:border-none mb:justify-around  mb:w-2xs sm:justify-center sm:items-stretch sm:justify-start">
             <div className="flex shrink-0 items-center">
               <img
                 alt="Your Company"
                 src="https://themewagon.github.io/startup-nextjs/images/logo/logo-2.svg"
-                className={`h-8 w-30 p-1 rounded-md  ${mode ? "bg-amber-100": "bg-white"} tranistion delay-150 duration-500 ease`}
+                className={`h-8 sm:w-30 mb:w-20 p-1 rounded-md  ${mode ? "bg-amber-100": "bg-white"} tranistion delay-150 duration-500 ease`}
               />
             </div>
             <div className="hidden sm:ml-6 sm:block">
@@ -169,7 +169,7 @@ const {mode, setMode} = useContext(themeContext);
 
             <button
               type="button"
-              className={`relative rounded-md p-2 ${ mode ? "text-amber-100" : "text-gray-900"} shadow-xs cursor-pointer hover:bg-white/5 hover:text-blue-600 focus:outline-2 focus:outline-offset-2 focus:outline-indigo-500  transition delay-150 duration-500 ease`}
+              className={`relative rounded-md p-2 ${ mode ? "text-amber-100" : "text-gray-900"} mb:hidden sm:block shadow-xs cursor-pointer hover:bg-white/5 hover:text-blue-600 focus:outline-2 focus:outline-offset-2 focus:outline-indigo-500  transition delay-150 duration-500 ease`}
             >
             Sign in
             </button>
