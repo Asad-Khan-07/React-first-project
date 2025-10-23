@@ -15,7 +15,7 @@ const Body = () => {
         <h3 className={`${mode? "text-amber-100": "text-gray-600"} mt-5  text-[25px]  sm:w-[550px] text-center transition delay-150 duration-500 ease`}>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</h3>
 
     <motion.div 
-    initial={{opacity:0, translateX:"-50px"}}
+    initial={{opacity:0, translateX:"-20px"}}
     whileInView={{opacity:1,translateX:0}}
     transition={{duration:2}}
     viewport={{ once: true }}
@@ -98,7 +98,7 @@ const Body = () => {
 
 
     <motion.div 
-        initial={{opacity:0, translateX:"50px"}}
+        initial={{opacity:0, translateX:"20px"}}
     whileInView={{opacity:1,translateX:0}}
     transition={{duration:2}}
     viewport={{ once: true }}
@@ -141,7 +141,7 @@ const Body = () => {
 <span className='border-[1px] border-gray-300 w-full'></span>
 
     <motion.div 
-    initial={{opacity:0, translateX:"-50px"}}
+    initial={{opacity:0, translateX:"-20px"}}
     whileInView={{opacity:1,translateX:0}}
     transition={{duration:2}}
     viewport={{ once: true }}
@@ -446,7 +446,7 @@ const Body = () => {
 
   <div className={`flex sm:flex-row flex-col p-30 gap-10 mb:p-5  ${mode? "bg-[#040724]": "bg-gray-100"} transition duration-500 ease `}>
     <motion.div 
-        initial={{opacity:0, translateX:"-30px"}}
+        initial={{opacity:0, translateX:"-20px"}}
     whileInView={{opacity:1,translateX:0}}
     transition={{duration:2}}
     viewport={{ once: true }}
@@ -477,7 +477,7 @@ const Body = () => {
 
 
     <motion.div 
-        initial={{opacity:0, translateX:"30px"}}
+        initial={{opacity:0, translateX:"20px"}}
     whileInView={{opacity:1,translateX:0}}
     transition={{duration:2}}
     viewport={{ once: true }}
