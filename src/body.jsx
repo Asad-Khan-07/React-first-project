@@ -12,7 +12,7 @@ const Body = () => {
     <>
      <div className={`${mode? "bg-[#040724]": "bg-white"} relative  w-full flex flex-col justify-center items-center mb:p-5 sm:p-2 sm:px-30  transition duration-500 ease`}>
         <h1 className={`${mode? "text-amber-100": "text-gray-900"} font-bold text-[50px] mb:text-center  text-start leading-tight mt-50 transition delay-150 duration-500 ease`}>Main Feature</h1>
-        <h3 className={`${mode? "text-amber-100": "text-gray-600"} mt-5  text-[25px]  sm:w-[550px] text-center transition delay-150 duration-500 ease`}>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</h3>
+        <h3 className={`${mode? "text-amber-100": "text-gray-600"} sm:mt-5  text-[25px]  sm:w-[550px] text-center transition delay-150 duration-500 ease`}>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</h3>
 
     <motion.div 
     initial={{opacity:0, translateX:"-20px"}}
